@@ -12,7 +12,7 @@
 }
 
 .top-scroll {
-  background-image: url(./Images/african-american-business-woman-working-computer-bar-min.jpg);
+  background-image: url("../Images/african-american-business-woman-working-computer-bar-min.jpg");
   background-size: 1750px 1166px;
   height: 1166px;
   width: 100%;
