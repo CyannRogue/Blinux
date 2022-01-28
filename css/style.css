@@ -1,0 +1,508 @@
+@font-face {
+  font-family: "Avant Garde Demi BT";
+  src: url("/fonts/Avgardd.ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Avant Garde Demi BT";
+  font-size: 12px;
+}
+
+.top-scroll {
+  background-image: url(/Images/african-american-business-woman-working-computer-bar.jpg);
+  background-size: 1750px 1166px;
+  height: 1166px;
+  width: 100%;
+  position: fixed;
+  margin: -10px -10px;
+}
+
+.l-bg {
+  background: rgb(27, 33, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 33, 33, 0.7651260333234856) 0%,
+    rgba(27, 33, 33, 0.4962184702982756) 52%,
+    rgba(246, 246, 249, 0.34775908654477417) 100%
+  );
+  height: 1166px;
+  width: 100%;
+}
+
+/*header*/
+
+.content {
+  display: flex;
+  object-fit: contain;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 4;
+  justify-content: center;
+}
+
+.logo {
+  padding-top: 31px;
+  margin-right: 100px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  box-sizing: content-box;
+}
+
+li {
+  color: #f6f6f9;
+  text-align: justify;
+  padding: 25px 20px 0;
+  margin: 20px 5px;
+  text-shadow: 0px 1px 7px rgba(0, 0, 0, 0.61);
+  font-size: 1.3rem;
+}
+
+.buttons {
+  display: flex;
+  font-size: 0.1rem;
+  flex-direction: row;
+  margin-left: 150px;
+}
+
+.request-a-cal {
+  display: flex;
+  background-color: #85635a;
+  border-color: none;
+  width: 119px;
+  height: 37px;
+  border-radius: 24px;
+  margin: 65px 10px 40px 10px;
+  -webkit-box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+}
+
+.request-a-cal a {
+  text-decoration: none;
+  color: #f6f6f9;
+  padding: 10px 17px;
+}
+
+.login {
+  display: flex;
+  background-color: #f6f6f9;
+  border-color: none;
+  width: 74px;
+  height: 37px;
+  border-radius: 24px;
+  margin: 65px 10px 40px 10px;
+  -webkit-box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+}
+
+.login a {
+  text-decoration: none;
+  color: #1b2121;
+  padding: 10px 21px;
+}
+
+/*middle*/
+.middle-container {
+  width: 446px;
+  height: 264px;
+  margin: 50px 0 0 100px;
+  padding: 20px;
+}
+.middle-h1 {
+  color: #f6f6f9;
+  font-size: 2rem;
+}
+
+p {
+  color: #f6f6f9;
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.Start-a-Free-Trial {
+  display: flex;
+  background-color: #85635a;
+  width: 159px;
+  height: 37px;
+  border-radius: 24px;
+  margin: 5px 10px 40px 10px;
+  -webkit-box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+}
+
+.Start-a-Free-Trial a {
+  color: #f6f6f9;
+  text-decoration: none;
+  padding: 10px 0 0 37px;
+}
+.search {
+  color: #f6f6f8;
+  width: 340px;
+  height: 14px;
+  background: rgb(28, 32, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 32, 33, 0.8267506831834296) 0%,
+    rgba(28, 32, 33, 0.5410363974691439) 52%,
+    rgba(28, 32, 33, 0.24411762996214115) 100%
+  );
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.submit {
+  width: 70px;
+  border-radius: 20px;
+}
+
+.mid2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    9deg,
+    #ffffff 0%,
+    #ededed 24%,
+    #f6f6f9 100%
+  );
+
+  height: 60%;
+  width: 90%;
+  position: relative;
+  top: 1000px;
+  z-index: 2;
+  border-radius: 18px;
+  margin: auto 5%;
+}
+
+/*last*/
+.pricing {
+  font-size: 3rem;
+}
+
+.box {
+  width: 17.4%;
+  height: 72%;
+  background-color: #d2d2dc;
+  border-radius: 18px;
+  margin: 2% 3%;
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.39);
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.39);
+}
+
+.box img {
+  width: 30%;
+  height: auto;
+  margin: 4% 0 0 35%;
+}
+.h2box {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #1c2021;
+  border-radius: 18px;
+}
+
+.price {
+  padding-top: 15px;
+  font-size: 3rem;
+  color: #f6f6f8;
+}
+
+.a1 {
+  font-size: 1rem;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.box-button {
+  display: flex;
+  background-color: #85635a;
+  width: 155px;
+  height: 40px;
+  border-radius: 24px;
+  -webkit-box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+  box-shadow: 5px 5px 14px 3px rgba(0, 0, 0, 0.59);
+}
+
+.box-button p {
+  font-size: 1rem;
+  word-spacing: -1px;
+  padding: 0 0 8px 13px;
+}
+
+.second .c3 {
+  font-size: 1rem;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .top-scroll {
+    background-size: 100%;
+    height: 1166px;
+    width: 100%;
+    margin: -10px -10px;
+  }
+
+  .l-bg {
+    height: 1166px;
+    width: auto;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen and (min-device-width: 1280px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .top-scroll {
+    background-size: 100%;
+    height: 1166px;
+    width: 100%;
+    margin: -10px -10px;
+  }
+
+  .l-bg {
+    height: 1166px;
+    width: auto;
+  }
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) {
+  body {
+    overflow: hidden;
+  }
+  #header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    justify-content: center;
+  }
+  .top-scroll {
+    position: relative;
+    width: 850px;
+    height: 1290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .l-bg {
+    width: 850px;
+    height: 1290px;
+  }
+
+  .main-bg {
+    width: 850px;
+    height: 1290px;
+  }
+  .logo {
+    padding: 0 0 0 10%;
+    margin-right: 1px;
+  }
+  .box {
+    width: 30%;
+    height: 75%;
+    margin: 10% 5%;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .a1 {
+    font-size: 1.3rem;
+    padding: 10% 5%;
+  }
+
+  .buttons {
+    display: flex;
+    font-size: 0.1rem;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  .box-button {
+    width: 85%;
+    height: 50px;
+  }
+
+  .box-button p {
+    font-size: 1rem;
+    text-align: center;
+    word-spacing: -1px;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .second .c3 {
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .mid2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(
+      9deg,
+      #ffffff 0%,
+      #ededed 24%,
+      #f6f6f9 100%
+    );
+
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 2;
+    bottom: 900px;
+    border-radius: 18px;
+    margin: 80% 50px 0 8.5%;
+    overflow: scroll;
+  }
+
+  .second {
+    width: 100%;
+    height: 75.1%;
+  }
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) {
+}
+/* ----------- Mobile Phones ----------- */
+
+/* Portrait */
+/*@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+  #header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    justify-content: center;
+  }
+  .top-scroll {
+    position: relative;
+    width: 320px;
+    height: 640px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .l-bg {
+    width: 320px;
+    height: 640px;
+  }
+
+  .main-bg {
+    width: 320px;
+    height: 640px;
+  }
+  .logo {
+    padding: 0 0 0 10%;
+    margin-right: 1px;
+  }
+  .box {
+    width: 30%;
+    height: 75%;
+    margin: 10% 5%;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .a1 {
+    font-size: 1.3rem;
+    padding: 10% 5%;
+  }
+
+  .buttons {
+    display: flex;
+    font-size: 0.1rem;
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  .box-button {
+    width: 85%;
+    height: 50px;
+  }
+
+  .box-button p {
+    font-size: 1rem;
+    text-align: center;
+    word-spacing: -1px;
+    margin: 0;
+    padding: 15px;
+  }
+
+  .second .c3 {
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .mid2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ffffff;
+    background-image: linear-gradient(
+      9deg,
+      #ffffff 0%,
+      #ededed 24%,
+      #f6f6f9 100%
+    );
+
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    z-index: 2;
+    bottom: 900px;
+    border-radius: 18px;
+    margin: 75% 80px 0 5%;
+    overflow: scroll;
+  }
+
+  .second {
+    width: 100%;
+    height: 75.1%;
+  }
+}
+
+/* Landscape */
+/*@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+*/
